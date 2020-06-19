@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');  
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');  
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box
+   }
+
+   ul li {
+       list-style-type: none
+   }
+
+   a,
+   a:hover {
+       text-decoration: none
+   }
+        
+        #scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+            text-decoration: none
+}
+
+#header{width: 100%;position: relative;padding: 0;margin: 0}
+
+/*Navbar*/
+.navbar{padding: 1rem 4rem!important;background-color: #fff!important;color: #000;font-weight: 700}
+.nav-item{padding: 0 1rem}
+.nav-link{padding: 0 ;margin:0;text-transform: uppercase}
+
+.nav-item .nav-link:hover{
+    color: #91ad41!important;
+}
+
+
+
+/*Nav Search*/
+.search-box{background: #fff;position: absolute;right: 5%;top: 78px;box-shadow:  0 0 10px rgba(0,0,0,0.5);width: 300px;height: 50px;padding: 6px 8px;display: none;z-index: 999}
+.search-box input[type="text"]padding: 5px 10px;border: 1px solid #495057!important;}
+.search-box .input-group-append .input-group-text{background: #91ad41;!important;display: block;padding: 1rem 0!important}
+
+
+
+
+
+#main .owl-carousel .item{position: relative;}
+#main .owl-carousel .item .text{position: absolute;top: 50%;transform: translateY(-50%);left: 10%}
+#main .owl-carousel .item .text-2{position: absolute;top: 50%;transform: translateY(-50%);right: 10%}
+
+#main .owl-carousel .item  h4{font-family: 'Dancing Script', cursive;font-size: 30px}
+#main .owl-carousel .item  h2{font-family: 'Anton', sans-serif;font-size: 60px;color: #91ad41;letter-spacing: 5px;margin: 1rem 0}
+#main .owl-carousel .item  p{color: #495057;letter-spacing: 2px;line-height: 30px}
+#main .owl-carousel .item  .btn{text-transform: uppercase;padding: 1rem 3rem;margin: 1rem 1rem 0 0 }
+#main .owl-carousel .item  .btn-main-1{text-transform: uppercase;color:#495057;border: 1px solid #495057;transition: all 0.5s}
+#main .owl-carousel .item  .btn-main-1:hover{background-color:#91ad41;color:#fff;border: 1px solid #91ad41}
+#main .owl-carousel .item  .btn-main-2{text-transform: uppercase;background-color:#91ad41;color:#fff;border: 1px solid #91ad41}
+
+
+#main .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 50%;overflow: hidden
+   
+}
+#main .owl-carousel .owl-nav button.owl-prev {
+    left: 2%;
+}
+#main .owl-carousel .owl-nav button.owl-prev span,
+#main .owl-carousel .owl-nav button.owl-next span {
+    font-size: 40px;
+    color: #fff;
+   padding: 1rem 2rem;
+    background-color: rgb(0,0,0,0.5);
+}
+
+
+#main .owl-carousel .owl-nav button.owl-next {
+    right: 2%;
+}
+
+.owl-theme  .owl-nav [class*=owl-]:hover {
+  background: transparent
+}
+
+
+@media (max-width:995px){
+    .nav-item{padding: 0 0.5rem}
+}
+@media (max-width:874px){
+    .nav-item{padding: 0 0.2rem}
+}
+@media (max-width:810px){
+    .nav-item{padding: 0 0.1rem}
+}
+@media (max-width:788px){
+    .nav-item{padding: 0 }
+    #main .owl-carousel .item  h2{margin: 0 0.5rem}
+}
+@media (max-width:723px){
+    #header{height: auto;margin: 0;padding: 0;}
+   #main .owl-carousel .item  h2{margin: 0 0.1rem}
+   #main .owl-carousel .item .text-2,.text{text-align: center}
+    #main .owl-carousel .item  .btn{padding: 0.8rem 2rem;margin: 0.5rem 0.5rem 0 0;display: block;}
+    
+}
+@media (max-width:664px){
+   
+   #main .owl-carousel .item  h2{margin: 0 ;font-size: 30px}
+    
+   #main .owl-carousel .item .text-2{text-align: center}
+    #main .owl-carousel .item  .btn{padding: 0.8rem 2rem;margin: 0.5rem 1rem;display: block;}
+    
+}
+@media (max-width:664px){
+    #main .owl-carousel .item img{width: 100%;height: 400px}
+    #main .owl-carousel .item p {letter-spacing: 0}
+   
+   #main .owl-carousel .item  h2{margin: 0 ;font-size: 30px}
+    
+   #main .owl-carousel .item .text-2{text-align: center}
+    #main .owl-carousel .item  .btn{padding: 0.8rem 2rem;margin: 0.5rem 1rem;display: block;}
+    
+}
+
+/*************************Header End*****************/
+
+
+/*About us*/
+#about-us{background: #fff;padding: 4rem 0}
+#about-us .text{text-align: center}
+#about-us .text h4{font-family: 'Dancing Script', cursive;font-size: 30px;color: #91ad41 ;text-transform: capitalize;letter-spacing: 3px}
+#about-us .text h2{font-family: 'Anton', sans-serif;font-size: 40px;letter-spacing: 5px;margin: 1rem 0}
+#about-us .text img{max-width: 100%;padding-bottom: 0.6rem }
+#about-us .text p{color: #495057}
+#about-us .text{width: 60%;margin: auto}
+#about-us .image img{max-width: 100%;transition: all 0.5s}
+#about-us .image{margin: 1rem 0;}
+#about-us .text h3{font-size: 20px}
+#about-us .small-text p{color:  #495057}
+#about-us hr{width: 20%;margin:auto;height: 0.5px;background-color: #91ad41 ; margin: 2rem auto 1rem auto;transition: all 0.3s}
+#about-us .img-box:hover img{transform: scale(1.2)}
+#about-us .img-box:hover hr{background-color:#139910;}
+
+
+/*Features*/
+#features{background: #f5fcf9;padding: 4rem 0}
+#features .text h4{font-family: 'Dancing Script', cursive;font-size: 30px;color: #91ad41 ;text-transform: capitalize;letter-spacing: 3px}
+#features .text h3{font-family: 'Anton', sans-serif;font-size: 40px;letter-spacing: 5px;margin: 1rem 0}
+#features .text img{max-width: 100%;padding-bottom: 0.6rem }
+#features .text p{color: #495057}
+#features .icon-box{display: flex; }
+#features .icon-box {margin: 1rem 0}
+#features .icon-box .text{padding: 0 2rem}
+#features .icon-box img{max-width: 100%;transition: all 0.4s;}
+#features .icon-box:hover img{transform: translateX(20px)}
+#features .text h5{color: #282828;font-size: 20px}
+#features .image-box{display: flex;align-items: center;}
+
+/*Gallery*/
+#gallery{width: 100%;}
+#gallery .gallery-1{background-color: #59cca6;background-image: url('../images/home1-intro-bg1.png');padding: 3rem 2rem;text-align: center;background-size: cover;background-repeat: no-repeat;color: #fff}
+#gallery h4{padding: 2rem 0;font-weight: 700}
+#gallery .gallery-1:hover img{transform: scale(1.2)}
+#gallery .gallery-1 .image img{transition: all 0.5s;max-width: 100%;}
+
+#gallery .gallery-2{background-color: #91ad41;;background-image: url('../images/home1-intro-bg2.png');padding: 3rem 2rem;text-align: center;background-size: cover;background-repeat: no-repeat;color: #fff}
+#gallery .gallery-2:hover img{transform: scale(1.2)}
+#gallery .gallery-2 .image img{transition: all 0.5s;max-width: 100%;}
+
+#gallery .gallery-3{background-color: #e3b375;background-image: url('../images/home1-intro-bg3.png');padding: 3rem 2rem;text-align: center;background-size: cover;background-repeat: no-repeat;color: #fff}
+#gallery .gallery-3:hover img{transform: scale(1.2)}
+#gallery .gallery-3 .image img{transition: all 0.5s;max-width: 100%;}
+
+#gallery .gallery-4{background-color: #ef7f94;;background-image: url('../images/home1-intro-bg4.png');padding: 3rem 2rem;text-align: center;background-size: cover;background-repeat: no-repeat;color: #fff}
+#gallery .gallery-4:hover img{transform: scale(1.2)}
+#gallery .gallery-4 .image img{transition: all 0.5s;max-width: 100%;}
+
+
+/*Features Products*/
+#features-products{padding: 4rem 0}
+#features-products .text{text-align: center}
+#features-products .text h4{font-family: 'Dancing Script', cursive;font-size: 30px;color: #91ad41 ;text-transform: capitalize;letter-spacing: 3px}
+#features-products .text h3{font-family: 'Anton', sans-serif;font-size: 40px;letter-spacing: 5px;margin: 1rem 0}
+
+#features-products .my-accordion{margin-top:3rem  }
+#features-products .my-accordion .nav-item .nav-link{text-transform: uppercase;text-decoration: none;color: #495057;border: 1px solid #495057;padding: 0.6rem 1rem;border-radius: 15px;transition: all 0.5s}
+#features-products .my-accordion .nav-item .nav-link:hover{color: #fff!important;background: #91ad41 ;border: 1px solid #91ad41}
+#features-products .my-accordion .nav-item .active{color: #fff!important;background: #91ad41 ;border: 1px solid #91ad41}
+#features-products #myTabcontent .image-box{position: relative;overflow: hidden}
+#features-products #myTabcontent .image-box img{transition: all 0.9s}
+#features-products #myTabcontent .image-box img:hover{transform: scale(1.1)}
+#features-products #myTabcontent .image-box .span-1{position: absolute;top: 5px;right: 5px;background: #f48086;color: #fff;font-size: 13px;padding: 2px 10px;border-radius: 10px}
+#features-products #myTabcontent .image-box .span-2{position: absolute;top: 35px;right: 5px;background:#e3b375;;color: #fff;font-size: 13px;padding: 2px 10px;border-radius: 10px}
+#features-products #myTabcontent .image-name{background: #f5f6fb;;padding: 1rem 0;text-align: center;position: relative}
+#features-products #myTabcontent .image-name a{color: #000;text-decoration: none;font-weight: 500;padding: 0.8rem 0;display: block}
+#features-products #myTabcontent .image-name h6 {color:  #91ad41;}
+#features-products #myTabcontent .image-name h6 span{color:  #495057;text-decoration: line-through;margin-left: 1rem}
+#features-products #myTabcontent {margin-top: 1.5rem}
+#features-products #myTabcontent .myTabicon{display: flex;justify-content: center;border-radius: 20px}
+#features-products #myTabcontent .myTabicon li{padding: 0 0.5rem}
+#features-products #myTabcontent .myTabicon li a{color: #495057 ;font-size: 12px}
+#features-products #myTabcontent .short-icon{position: absolute;top: -50%;left: 50%;transform: translateX(-50%);transition: all 0.4s;z-index: -1}
+#features-products #myTabcontent .product-box:hover .short-icon{top:10px ;z-index: 2}
+#features-products #myTabcontent .product-box{transition: all 0.4s;margin: 1rem auto!important;padding: 0 1rem!important}
+#features-products #myTabcontent .product-box:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);}
+
+/*Deal*/
+#deal{background-image: url('../images/promotion-bg.jpg');width: 100%;position:relative;padding: 4rem 0;background-position: 100% 100%}
+#deal .text h4{font-family: 'Dancing Script', cursive;font-size: 30px;color: #91ad41 ;text-transform: capitalize;letter-spacing: 3px}
+#deal .text h3{font-family: 'Anton', sans-serif;font-size: 40px;letter-spacing: 5px;margin: 1rem 0}
+#deal .text p{color: #495057;margin-top: 0.6rem}
+#deal .text .btn-deal{text-transform: uppercase;background-color: #91ad41 ;border: 2px solid #91ad41 ;color: #fff;padding: 0.5rem 1rem;transition: all 0.5s}
+#deal .text .btn-deal:hover{background-color:  #495057;border: 2px solid  #495057}
+
+#deal #banner .owl-carousel{position: relative}
+#deal #banner  .price-logo{position: absolute;bottom: 80px;right: -10px;z-index: 50;background-color:#f48086;text-align: center ;padding: 1rem 1.5rem;border-radius: 50%}
+#deal #banner  .price-logo h5{color:#fff;font-size: 12px}
+#deal #banner  .price-logo h6{color: #fff;font-family: 'Dancing Script', cursive;font-size: 15px;}
+@media (max-width:993px){
+    #deal #banner  .price-logo{display: none}
+
+}
+
+/*oars*/
+
+
+#oars{background: #fff;padding: 4rem 0;position: relative}
+#oars h3{font-family: 'Dancing Script', cursive;font-size: 30px;color: #91ad41 ;text-transform: capitalize;letter-spacing: 3px}
+#oars h4{font-family: 'Anton', sans-serif;font-size: 40px;letter-spacing: 5px;margin: 1rem 0}
+#oars .price a{display: block;color:  #495057;text-decoration: none;font-weight: 700}
+#oars .price h6{color: #91ad41;font-weight: 700}
+#oars .price-tag {display: flex;align-items: center;background-color: #f5f6fb }
+#oars .owl-carousel img{position: relative}
+
+
+#oars .owl-carousel .myTabicon{display: flex;justify-content: center;border-radius: 20px}
+#oars .owl-carousel .myTabicon li{padding: 0 0.5rem}
+#oars .owl-carousel .myTabicon li a{color: #495057 ;font-size: 12px}
+#oars .owl-carousel .short-icon{position: absolute;top: -100%;left: 50%;transform: translateX(-50%);transition: all 0.5s}
+#oars .owl-carousel .short-box:hover .short-icon{top: 0}
+#oars .owl-carousel .short-box{overflow: hidden}
+#oars .owl-carousel .short-box{margin: 1rem 0.5rem}
+
+
+
+/*customer*/
+#customer{background-image: url('../images/testimonial-bg.jpg');padding-top: 4rem }
+#customer .text h4{font-family: 'Dancing Script', cursive;font-size: 30px;color: #91ad41 ;text-transform: capitalize;letter-spacing: 3px}
+#customer .text h3{font-family: 'Anton', sans-serif;font-size: 40px;letter-spacing: 5px;margin: 1rem 0}
+#customer .text p{color: #495057;margin-top: 0.6rem}
+#customer .comment .comment-text p{color: #495057;margin:1rem auto;font-size: 13px}
+#customer .comment .comment-text h5{font-family: 'Anton', sans-serif;font-size: 15px;}
+#customer .comment .comment-text h6{color: #91ad41 }
+#customer .comment .img-box{position: relative;}
+#customer .comment  span{position: absolute;top: 0;left: 12px;right:12px;bottom: 0;background: #91ad41;z-index: -5;color: #fff;font-size: 90px;text-align: center;padding: 2rem 0; }
+#customer .comment .img-box:hover span{z-index: 5 ;}
+
+
+
+#myLogo .owl-carousel .item .box-item a{position: relative;display: block}
+#myLogo .owl-carousel .item .box-item a .img-2{position: absolute;top: -100%;transition: all 0.7s}
+/*#myLogo .owl-carousel .item .box-item a .img-1{position: absolute;top: 0;transition: all 0.7s}*/
+#myLogo .owl-carousel .item .box-item a:hover .img-2{top:0}
+#myLogo .owl-carousel .item .box-item a:hover .img-1{transform: translateY(250px);transition: all 1s}
+#myLogo .owl-carousel .item .box-item a .img-1{transition: all 1s}
+
+/*Blog*/
+#blog{padding: 4rem 0}
+#blog .text h4{font-family: 'Dancing Script', cursive;font-size: 30px;color: #91ad41 ;text-transform: capitalize;letter-spacing: 3px}
+#blog .text h3{font-family: 'Anton', sans-serif;font-size: 40px;letter-spacing: 5px;margin: 1rem 0}
+#blog .text p{color: #495057;margin-top: 0.6rem}
+#blog .blog-body{background:  #f5f6fb;padding: 1.4rem 0.5rem}
+#blog .blog-body a{text-decoration: none}
+#blog .blog-body a span{font-size: 13px;color: #495057 }
+#blog .blog-body a:first-child{color: #fff;background: #91ad41;font-size: 11px;padding: 0.3rem 0.5rem;}
+#blog .blog-body a:first-child:hover{color: #fff;background: #495057;}
+#blog .blog-body .second{color: #000;0font-size: 11px;font-weight: 700;display:inline-block;margin: 0.8rem 0}
+#blog .blog-body a:hover{color:#91ad41 }
+#blog .blog-body a span:hover{color:#91ad41 }
+#blog .blog-img{overflow: hidden;}
+#blog .blog-img img{transition: all 0.6s;}
+#blog .blog-div:hover img{transform: scale(1.2)}
+
+
+#blog .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+    
+}
+#blog .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+#blog .owl-carousel .owl-nav button.owl-prev span,
+#blog .owl-carousel .owl-nav button.owl-next span {
+    font-size: 25px;
+    color: #003859;
+    padding: 0 1rem;
+    margin: 0;
+    background: #fff;
+    color: #000;
+}
+
+#blog .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+/*Store*/
+#store{background:#f5fcf9;padding: 4rem 0;overflow-x: hidden}
+#store .store-text h3{font-family: 'Dancing Script', cursive;font-size: 30px;color: #91ad41 ;text-transform: capitalize;letter-spacing: 3px}
+#store .store-text h2{font-family: 'Anton', sans-serif;font-size: 40px;letter-spacing: 5px;margin: 1rem 0}
+#store .store-text img{}
+#store .store-text p{color: #495057;margin-top: 0.6rem}
+
+
+
+.store-slider .c {
+  position: relative;
+  width: 100%;
+  top: 20px;
+  left: 20px;
+}
+
+.store-slider .c ul {
+  font-family: arial;
+}
+
+.store-slider .c li {
+  cursor: pointer;
+}
+
+.store-slider .c ul ul {
+  display: none;
+}
+
+
+.store-slider .c ul li ul li {
+  padding-left: 10px;
+}
+
+
+
+.store-slider .c ul li span{color: #000;font-weight: 600;font-size: 20px}
+.store-slider .c ul li span:hover{color:#91ad41}
+.store-slider .c ul li ul li p{color:#495057}
+
+
+/*News Letter*/
+
+#news-letter{width: 100%;background: url('../images/newsletter-bg.png');padding: 4rem 0}
+#news-letter  button{background:#91ad41;color: #fff;text-decoration: none;}
+
+
+/*footer*/
+
+#footer{padding: 4rem 0;background: #fff;margin: }
+
+#footer h3{font-weight: 700;color: #000;font-size: 18px}
+#footer hr{width: 30px;height: 0.5px;background-color: #91ad41 ; }
+#footer p{color:#8b8b99}
+#footer .fa{color: #91ad41 ;font-size: 13px;margin: 0;padding: 0}
+#footer span{margin: 0 1rem 0 0}
+#footer  ul li{margin: 0.5rem 0}
+#footer a{color: #8b8b99;text-decoration: none;}
+#footer a:hover{color:#91ad41}
+
+
+#footer .footer-box{position: relative;border: 8px  solid #fff6ea;padding: 3rem 1.5rem}
+#footer .footer-box ul{display: flex;justify-content: space-between;padding: 0 3rem}
+#footer .footer-box .footer-bg{position: absolute;bottom: -35px;left: -20px;right: -20px}
+#footer .footer-box  p{margin: 1rem 0}
+
+/*Copy-right*/
+
+#copy-right{background: #fff6ea;padding: 1rem 0;text-align: center }
+#copy-right h6 span{font-weight: 800}
+
+
+
+@media (max-width:785px){
+    #blog .blog-div img{max-width: 100%;width: 100%}
+}
+
+@media (max-width:590px){
+    .store-slider .c{width: 90%}
+}
